@@ -1,17 +1,17 @@
 body{
     margin: 0px;
 }
-#navbar{
+.nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    background-color: indigo;
+    top: 0;
+    left: 0;
     width: 100%;
+    background-color: indigo;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    height: 60px;
-    align-items: center;
+    z-index: 10;
 }
-
 .navlist {
    display: flex;
    justify-content: space-around;
@@ -32,10 +32,46 @@ a {
 #welcome-section{
     width: 100%;
     height: 100vh;
-    background-color: #888;
+    background-image: url("https://wallup.net/wp-content/uploads/2015/12/18942-landscape-flowers-nature-mountain-purple_flowers-748x421.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 200;
 }
 .project-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
+img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
