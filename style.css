@@ -75,3 +75,20 @@ img {
       font-size: 55%;
     }
   }
+  #contact{
+      background-color: rgb(137, 100, 158);
+  }
+  div{
+    display: inline-grid;
+    grid-template-areas: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 50px, 50px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  h2{
+    color:rgb(44, 80, 128);
+    font-weight: 700;
+    font-family: fantasy;
+  }
