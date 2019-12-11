@@ -8,46 +8,47 @@
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <nav id="navbar" class="nav">
-        <ul class="navlist">
-            <li>
-                <a href="#welcome-section">About</a>
-            </li>
-            <li>
-                <a href="#projects">Work</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-     <section id="welcome-section">
+    <nav>
+        <ul>
+           <li><a href="index.html" class="active">Home</a></li>
+           <li><a href="about_page.html">About</a></li>
+           <li><a href=".contact">Contact</a></li>
+       <div class="keepOpen"></div>
+       </nav>
         <h1>Welcome to my Portfolio</h1>
-    </section>
-    <section id="projects">
-        <h2>These are some of my projects</h2>
-        <div class="project-grid">
-            <a id= "profile-link" class="project-tile" target = "_blank" href= "https://github.com/mckennahaws">
-            <img src="https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg"/>
-        </a>
-        <a class="project-tile" href= "https://www.google.com">
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg"/>
-        </a>
-        <a class="project-tile" href= "https://www.google.com">
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-image-of-the-summer-flowering-bulbous-royalty-free-image-931820550-1542831041.jpg"/>
-        </a>
-        </div>
-    </section>
-    <section id="contact">\
-        <h1>How to contact me...</h1>
-        <p>10719674@my.uvu.edu</p>
-    </section>
     <main>
-        
+        <p>These are my projects from the Fall 2019 semester</p>
+        <div class="projectGallery">
+            <figure class="recipeImages">
+                <a href="https://www.dgm2120.mckennajhaws.com" target="_blank">
+            <img src="images/r2d2.jpg" alt="r2d2">
+            </a>
+            <figcaption>My Starwars Project</figcaption>
+            </figure>
+            <figure class="recipeImages">
+                <a href="http://pokecards.mckennajhaws.com/pokemon.html" target="_blank">
+            <img src="images/pikachu.jpg" alt="pikachu">
+            </a>
+            <figcaption>My Pokemon Project</figcaption>
+            </figure>
+            <figure class="recipeImages">
+                <a href="https://www.dgm2120.mckennajhaws.com" target="_blank">
+            <img src="images/sugar_cookie.jpg" alt="sugar">
+            </a>
+            <figcaption>My Vegan Baking Website</figcaption>
+            </figure>
+            <figure class="recipeImages">
+                <a href="https://github.com/mckennahaws" target="_blank">
+            <img src="images/gitub.png" alt="github">
+            </a>
+            <figcaption>Github</figcaption>
+            </figure>
+        </div>
+        <h2>How to contact me</h2>
+        <p class="contact">Phone: 8014049803 | Email: 10718674@my.uvu.edu</p>
     </main>
     <footer>
         <p>This is McKenna Spencer's 1600 Personal Portfolio</p>
     </footer>
-    <script type='module' src="starwars.js"></script>
 </body>
 </html>
