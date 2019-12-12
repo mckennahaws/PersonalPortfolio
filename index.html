@@ -11,22 +11,22 @@
     <nav>
         <ul>
            <li><a href="index.html" class="active">Home</a></li>
-           <li><a href="about_page.html">About</a></li>
-           <li><a href=".contact">Contact</a></li>
+           <li><a href="#aboutMe">About</a></li>
+           <li><a href="#contact">Contact</a></li>
        <div class="keepOpen"></div>
        </nav>
-        <h1>Welcome to my Portfolio</h1>
+        <h1 id="top">Welcome to my Portfolio</h1>
     <main>
         <p>These are my projects from the Fall 2019 semester</p>
         <div class="projectGallery">
             <figure class="recipeImages">
-                <a href="https://www.dgm2120.mckennajhaws.com" target="_blank">
+                <a href="https://goofy-ramanujan-704e30.netlify.com/" target="_blank">
             <img src="images/r2d2.jpg" alt="r2d2">
             </a>
             <figcaption>My Starwars Project</figcaption>
             </figure>
             <figure class="recipeImages">
-                <a href="http://pokecards.mckennajhaws.com/pokemon.html" target="_blank">
+                <a href="https://trusting-curran-7fd6d3.netlify.com/" target="_blank">
             <img src="images/pikachu.jpg" alt="pikachu">
             </a>
             <figcaption>My Pokemon Project</figcaption>
@@ -44,9 +44,16 @@
             <figcaption>Github</figcaption>
             </figure>
         </div>
+        <h2 id = "aboutMe">About Me</h2>
+        <p>My name is McKenna Spencer.  I am currently attending UVU as a web design major.  I hope to 
+            grow my skill in the coming years and become a great programmer.  Thanks so much for taking a look at
+            my page I hope you like it!
+        </p>
         <h2>How to contact me</h2>
-        <p class="contact">Phone: 8014049803 | Email: 10718674@my.uvu.edu</p>
+        <p id= "contact" >Phone: 8014049803 | Email: 10718674@my.uvu.edu</p>
     </main>
+    <button onclick="location.href= '#top'" type="button">
+        back to top</button>
     <footer>
         <p>This is McKenna Spencer's 1600 Personal Portfolio</p>
     </footer>

@@ -91,10 +91,22 @@ h1{
       background-color: lightslategray;
       color: #000;
   }
+}
   h2{
     color:rgb(68, 31, 87);
     font-weight: 600;
   }
-  .contact{
-    background-color: rgb(223, 165, 235);
+
+  p#contact{
+      background-color: rgb(184, 139, 206);
   }
+  #aboutMe{
+      color: rgb(68, 31, 87);
+  }
+button{
+    padding: 10px;
+    background-color: rgb(68, 31, 87);
+    box-shadow: 10px 10px 18px #CCC;
+    color: white;
+
+}
